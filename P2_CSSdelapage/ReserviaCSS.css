@@ -6,9 +6,9 @@
 }    
 
 body
-{   
-    margin: 0;
+{ 
     font-family: 'Raleway';
+    margin: 0;
 }
 a
 {
@@ -35,15 +35,18 @@ h3 , h4 , h5
 {
     font-weight: bold;
 }
-
+header , section 
+{
+    margin-left: 20px;
+}
 /*Tête de page*/
 
 header
 {
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 ul
 {
@@ -223,6 +226,10 @@ label
     font-size:130px;
     font-weight: bold;
     margin-left: 15px ;
+}
+#Hmarseille h3
+{
+    margin-left: 35px;
 }
 #hebergement
 {
@@ -416,7 +423,7 @@ footer
 {
     display: flex;
     flex-wrap: wrap;
-    background-color: #F2F2F2;    
+    background-color: #F2F2F2;  
 }
 footer p
 {
