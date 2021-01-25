@@ -138,7 +138,8 @@ label
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    align-items: center;  
+    align-items: center;
+    margin-top: 30px;  
     margin: 20px;
 }
 #filtres strong
@@ -148,25 +149,25 @@ label
     text-align: center;
     margin-right: 20px;
 }
-#filtres :hover 
+#filtres :hover
 {
     color:#0065fc;
     border-color: #0065fc;
 }
 
-.filtres1 , .filtres2 , .filtres3 , .filtres4 , .filtres5
+.filtres
 {
     font-weight: bold;
     margin-right: 30px;
 }
-.filtres2 , .filtres3 , .filtres4 , .filtres5
+.filtres
 {
     border: 2px solid lightgrey;
     border-radius: 40px;
     font-size: 90%;
     width: auto;
 }
-.filtres2 i , .filtres3 i , .filtres4 i , .filtres5 i
+.filtres i
 {
     color: #0065fc;
     border: 0px solid;
@@ -182,7 +183,8 @@ label
 {
     display: flex;
     flex-direction:row;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .info p
 {
@@ -246,7 +248,7 @@ label
     background-color: white;
     box-shadow: 1px 5px 15px lightgrey;
     border-radius: 20px;
-    padding: 3px;
+    padding: 5px;
     margin: 25px;
     width: 310px;
     height: 240px;
@@ -283,8 +285,9 @@ label
 #Hmarseille h5
 {
     font-weight:700 ;
-    font-size: 17px;
+    font-size: 16px;
     margin-left: 30px;
+    margin-top: 15px;
 }
 .miniInfo
 {
@@ -318,7 +321,7 @@ aside h3
     object-fit: cover;
     object-position: left;
     margin-right: 22px;
-    width: 160px;
+    width: 150px;
     height: 170px;
 }
 
@@ -334,11 +337,11 @@ aside h3
 }
 .populaires1
 {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .populaires2 , .populaires3
 {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 #populaires h4
@@ -352,7 +355,7 @@ aside h3
 }
 #populaires i 
 {
-    font-size: 11px;
+    font-size: 15px;
     margin-top: 40px;
 }
 
